@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* setting a font size for all child elements that can then be relatively referenced */
+    font-size: 18px;
+    /* sets the space between lines of text */
+    line-height: 1.3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+        width: 100%;
+        padding: 3rem;
+        margin: 0 0 2rem 0;
+        /* background-color: whitesmoke; */
+        display: flex;
+        flex-flow: column nowrap;
+}
+
+main {
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 250%;
+    flex: 1 0 100%;
+    text-align: center;
+}
+
+header p {
+    font-size: 140%;
+    flex: 1 0 100%;
+    text-align: center;
+}
+
+section {
+    margin: 2rem 1rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+p {
+    text-align: center;
+    padding: 2rem;
+    width: 100%
+}
+
+article {
+    box-shadow:  5px 5px 5px grey;
+    flex: 1 0 100%;
+}
+
+.card-hdr {
+    background-color: whitesmoke;
+    padding: 1rem;    
+}
+
+i {
+    display: inline;
+    margin-right: 1rem;
+}
+
+h3 {
+    display: inline;
+}
+
+.details {
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+li {
+    border: solid 1px whitesmoke;
+    padding: 1rem;
+    flex: 1 0 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
