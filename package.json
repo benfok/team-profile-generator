@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Generates an HTML file of Team Members and contact info",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benfok/team-profile-generator.git"
+  },
+  "author": "Ben Fok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benfok/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/benfok/team-profile-generator#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
