@@ -6,7 +6,7 @@ describe('Employee', () => {
     it('should construct a new object with name, id and email', () => {
         const newEmployee = new Employee('Ben', 1234, 'test@test.com');
         
-        expect(newEmployee).toEqual({ name: 'Ben', id: 1234, email: 'test@test.com' });
+        expect(newEmployee).toEqual({ name: 'Ben', id: 1234, email: 'test@test.com', role: 'Employee' });
     });        
 
     it('should throw an error if an invalid name, id or email is passed as an argument', () => {
@@ -32,6 +32,12 @@ describe('Employee', () => {
         const newEmployee = new Employee('Ben', 1234, 'test@test.com');
         
         expect(newEmployee.getEmail()).toEqual('test@test.com');
+    });
+
+    it('should return the role Employee when I run getRole()', () => {
+        const newEmployee = new Employee('Ben', 1234, 'test@test.com');
+        
+        expect(newEmployee.getRole()).toEqual('Employee');
     });
 
 });
