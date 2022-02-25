@@ -44,13 +44,15 @@ header p {
 section {
     margin: 2rem 1rem;
     display: flex;
+    gap: 2rem;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 p {
     text-align: center;
     padding: 2rem;
-    width: 100%
+    width: 100%;
 }
 
 article {
@@ -73,6 +75,7 @@ i {
 
 h3 {
     display: inline;
+    font-weight: lighter;
 }
 
 .details {
@@ -95,5 +98,23 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: whitesmoke;
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        font-size: 120%;
+    }
+    
+    article {
+        flex: 1 0 46%;
+        max-width: 46%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    article {
+        flex: 1 0 30%;
+        max-width: 30%;
+    }
 }
 
