@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const { managerPrompts, employeePrompts } = require('./lib/prompts');
-const { pageHtml, contactCard } = require('./lib/createHtml');
+const { pageHtml, contactCard } = require('./src/createHtml');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
